@@ -1,0 +1,47 @@
+html {
+	font-family: 'Lora', serif;
+}
+p,ul,ol {
+  color: #0066FF;
+  /*width: 500px;*/
+  border: 2px solid black;
+}
+#head1 {
+	margin: 0;
+  	padding: 5px 0;
+	width: 600px;    
+  	color: #F;/*text color*/
+	background-color: #005600;
+        text-align:center;
+        text-shadow: 3px 3px 1px gray;
+
+}
+img {
+  display: block;
+  margin: 10 auto;
+  
+  width: 590px;
+  height:300px;
+  border: 5px solid red;
+}
+a:hover {
+   background-color: red;
+}
+a {
+	color: #0066FF;
+}
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  	background-color: #00539F;
+}
+body {
+  width: 600px;/*note that default alignment is center*/
+  margin: 0 auto;
+  background-color: #FF9500;;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
