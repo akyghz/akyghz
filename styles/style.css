@@ -1,47 +1,74 @@
 html {
 	font-family: 'Lora', serif;
+	background-color: #ffd;
 }
 p,ul,ol {
   color: #0066FF;
+  background-color:#E9E9E8;
   /*width: 500px;*/
   border: 2px solid black;
 }
 #head1 {
-	margin: 0;
-  	padding: 5px 0;
-	width: 600px;    
+	margin: 5 px 0 px 0 px 0 px;
+  	padding: 5px 5px 5px 5px;
+	width: 780px;    
   	color: #F;/*text color*/
-	background-color: #005600;
-        text-align:center;
-        text-shadow: 3px 3px 1px gray;
-
+	background-color: #9ff;
+	border: 5px solid black;
+    text-align:center;
+    text-shadow: 3px 3px 1px gray;
 }
 img {
   display: block;
   margin: 10 auto;
   
-  width: 590px;
+  width: 790px;
   height:300px;
   border: 5px solid red;
 }
-a:hover {
-   background-color: red;
+/* unvisited link */
+a:link {
+    /*color: #FF0000;*/
+	font-size: 150%;
+	text-decoration: none;
 }
-a {
-	color: #0066FF;
+
+/* visited link */
+a:visited {
+    color: #00F;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+	text-decoration: none;
 }
 p, li {
   font-size: 16px;    
   line-height: 2;
   letter-spacing: 1px;
 }
-html {
-  	background-color: #00539F;
-}
 body {
-  width: 600px;/*note that default alignment is center*/
+  width: 800px;/*note that default alignment is center*/
   margin: 0 auto;
-  background-color: #FF9500;;
+  background-color: #ff9;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
+}
+iframe, div {
+	border:2px solid #ddd;
+	width:800px;
+	height:650px;
+	align:center;
+}
+button {
+	align:center;
+	background-color:#f9f;
 }
